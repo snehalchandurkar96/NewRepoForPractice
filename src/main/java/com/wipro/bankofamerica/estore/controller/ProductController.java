@@ -37,6 +37,9 @@ public class ProductController {
 	 * This method is used to get all the product details
 	 * 
 	 */
+//this is for testing
+//again testing
+
 	@GetMapping("/getAll")
 	public @ResponseBody Iterable<Product> getAllProduct() throws Exception {
 		logger.info("Product Rest Controller Implementation : getAllProduct() method");
